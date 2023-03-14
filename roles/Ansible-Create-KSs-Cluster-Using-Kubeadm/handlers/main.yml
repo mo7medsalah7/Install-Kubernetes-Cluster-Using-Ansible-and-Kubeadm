@@ -1,5 +1,0 @@
-- name: daemon reload
-  systemd:
-    name: docker.service
-    daemon_reload: true
-    enabled: yes

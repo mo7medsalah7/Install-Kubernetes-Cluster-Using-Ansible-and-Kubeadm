@@ -1,8 +1,17 @@
 ---
 roles:
-  - src: ../install_crio_role/
-  - src: https://github.com/mo7medsalah7/Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role.git
-    path: cluster_common_services_role
+  - src: https://github.com/mo7medsalah7/Ansible_install_CRIO_Role
     scm: git
     version: main
-  - src: ../install_master_role/
+  - src: https://github.com/mo7medsalah7/Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role.git
+    scm: git
+    version: main
+  - src: https://github.com/mo7medsalah7/Ansible_Kubeadm_K8S_Master_Role.git
+    scm: git
+    version: main
+  - src: https://github.com/mo7medsalah7/Ansible_Worker_Nodes_Role.git
+    scm: git
+    version: main
+  - src: https://github.com/mo7medsalah7/Ansible_install_CNI_Kubeadm_Role.git
+    scm: git
+    version: main

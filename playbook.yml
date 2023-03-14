@@ -1,0 +1,23 @@
+#- name: Install Prerequisites (Container Runtime)
+  #hosts: all
+    #become: yes
+    #roles:
+    # Install Container Runtime (Docker) on Master Node and Worker Nodes.
+    #    - Ansible_Install_Docker_Linux_Role
+    # Install Common Software(s) on Master Node and Worker node.
+    # - Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role
+    #- ../install_crio_role
+    #- ../install_common_modules_kubeadm
+
+- name: install/ Configure Master Node.
+  hosts: master
+  gather_facts: no
+  roles:
+  # This role is applied on the master node
+  - ../install_master_role
+  - ../install_cni_role
+- name: Join Worker Node to Master Node
+  gather_facts: no
+  hosts: workers
+  roles:
+    - ../install_worker_node_role

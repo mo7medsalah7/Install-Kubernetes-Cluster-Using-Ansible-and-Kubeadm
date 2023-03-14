@@ -1,0 +1,4 @@
+- name: Install Kubeadm on RHEL
+  include_tasks: kube_redhat.yml
+  when: ansible_os_family == "RedHat"
+

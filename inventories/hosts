@@ -1,0 +1,9 @@
+#ip_of_master_nodes
+[master]
+
+192.168.89.129
+
+
+#ip_of_worker_nodes
+[workers]
+192.168.89.130

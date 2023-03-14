@@ -1,0 +1,12 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: Installing Kubelet, Kubect, Kubeadm on K8S
+  author: Mohamed Salah
+  description: Installing Kubelet, Kubect, Kubeadm on K8S
+  galaxy_tags:
+    - K8S
+    - Kubelet
+    - Kubeadm
+    - Kubectl

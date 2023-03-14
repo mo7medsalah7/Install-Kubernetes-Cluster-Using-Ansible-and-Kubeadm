@@ -4,19 +4,19 @@
 
 ![alt text](https://github.com/mo7medsalah7/Install-Kubernetes-Cluster-Using-Ansible-and-Kubeadm/blob/main/diagrams/project_stack.png)
 
-[Operatin System]
-- CentOS Stram 9 (Ansible Controller).
-- Centos Stram 8 (Kubernetes Master Node).
-- Centos Stream 8 (Kubernetes Worker Node).
+- Operatin System
+- **CentOS Stram 9** (Ansible Controller).
+- **Centos Stram 8** (Kubernetes Master Node).
+- **Centos Stream 8** (Kubernetes Worker Node).
 
-[Container Runtime]
-- CRI-O (https://cri-o.io/)
+Container Runtime
+- **CRI-O** (https://cri-o.io/)
 
-[Kubernetes Cluster]
-- Kubeadm:- performs the actions necessary to get a minimum viable cluster up and running.
+Kubernetes Cluster
+- **Kubeadm**:- performs the actions necessary to get a minimum viable cluster up and running.
 
-[Configuration Management]
-- Ansible.
+Configuration Management
+- **Ansible**.
 
 
 # Roles

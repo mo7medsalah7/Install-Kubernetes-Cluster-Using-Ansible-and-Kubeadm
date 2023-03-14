@@ -23,21 +23,22 @@
 - This architecture utilizes the roles that i created in Github repositories and they are public for the community.
 
 - The roles are listed below:-
-[All Nodes - Master and Workers]
-– Install Kubectl, Kubelet and Kubeadm
+- All Nodes( Master and Workers):-
+  – Install Kubectl, Kubelet and Kubeadm:-
 **https://github.com/mo7medsalah7/Ansible_Install_Kubeadm_Kubectl_Kubelet_Linux_Role**
 
-– Install Container Runtime Role: **https://github.com/mo7medsalah7/Ansible_install_CRIO_Role**
+  – Install Container Runtime Role:-
+ **https://github.com/mo7medsalah7/Ansible_install_CRIO_Role**
 
-[Master Node Only]
-– Install Master Node Role:
+- Master Node Only:-
+  – Install Master Node Role:-
 **https://github.com/mo7medsalah7/Ansible_Kubeadm_K8S_Master_Role**
 
-– Install CNI Plugin (Flannel)
+  – Install CNI Plugin (Flannel)
 **https://github.com/mo7medsalah7/Ansible_install_CNI_Kubeadm_Role**
 
 
-[Worker Node only]
-– Install Worker Node Role
+- Worker Node only:- 
+  – Install Worker Node Role
 **https://github.com/mo7medsalah7/Ansible_Worker_Nodes_Role**
 

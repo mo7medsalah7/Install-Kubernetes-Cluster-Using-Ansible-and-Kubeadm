@@ -50,4 +50,6 @@ Docker as container runtime has become deprecated to work with Kubernetes starti
 
 # Verification
 - Go to the Master Node and run the following command.
-`kubectl get nodes`
+ - `kubectl get nodes`
+
+![alt text](https://github.com/mo7medsalah7/Install-Kubernetes-Cluster-Using-Ansible-and-Kubeadm/blob/main/diagrams/verification.png)
